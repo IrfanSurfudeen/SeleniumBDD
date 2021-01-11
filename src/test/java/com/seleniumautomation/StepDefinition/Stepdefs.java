@@ -168,4 +168,19 @@ public BaseClass baseClass;
     public void pushTheseNewChangesToGit() {
         System.out.println("pushTheseNewChangesToGit");
     }
+
+    @Given("^This is given for feature file in feature(\\d+) branch$")
+    public void thisIsGivenForFeatureFileInFeatureBranch(int arg0) {
+        System.out.println("feature1branch 1");
+    }
+
+    @When("^this is pulled  for feature file in feature(\\d+) branch$")
+    public void thisIsPulledForFeatureFileInFeatureBranch(int arg0) {
+        System.out.println("feature1branch 2");
+    }
+
+    @Then("^changes are pulled  for feature file in feature(\\d+) branch$")
+    public void changesArePulledForFeatureFileInFeatureBranch(int arg0) {
+        System.out.println("feature1branch 3");
+    }
 }

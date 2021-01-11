@@ -8,8 +8,9 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
         features = "features",glue={"com/seleniumautomation/StepDefinition"},
         tags = {
-                "@facebook",
-//                "@guru99popup"
+//                "@facebook",
+//                "@guru99popup",
+                "@newbranch"
         }
 )
 
