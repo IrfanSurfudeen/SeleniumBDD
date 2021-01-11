@@ -152,4 +152,20 @@ public BaseClass baseClass;
 
 
        }
+
+    @Given("^This is given for abc project$")
+    public void thisIsGivenForAbcProject() {
+        System.out.println("this is given for abc project");
+
+    }
+
+    @When("^this is already not in git$")
+    public void thisIsAlreadyNotInGit() {
+        System.out.println("thisIsAlreadyNotInGit");
+    }
+
+    @Then("^push these new changes to git$")
+    public void pushTheseNewChangesToGit() {
+        System.out.println("pushTheseNewChangesToGit");
+    }
 }
