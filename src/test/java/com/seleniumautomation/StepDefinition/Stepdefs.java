@@ -183,4 +183,21 @@ public BaseClass baseClass;
     public void changesArePulledForFeatureFileInFeatureBranch(int arg0) {
         System.out.println("feature1branch 3");
     }
+
+    @Given("^When ATM machine is available with cash and user has correct PIN number and account balance$")
+    public void whenATMMachineIsAvailableWithCashAndUserHasCorrectPINNumberAndAccountBalance() {
+        System.out.println("ATM machine is available");
+
+
+    }
+
+    @When("^the user inserts ATM card to the machine and types correct PIN number and withdrawal amout$")
+    public void theUserInsertsATMCardToTheMachineAndTypesCorrectPINNumberAndWithdrawalAmout() {
+        System.out.println("User types correct pin number and withdrawal amount");
+    }
+
+    @Then("^ATM machine dispurses the money to the user$")
+    public void atmMachineDispursesTheMoneyToTheUser() {
+        System.out.println("Money is disbursed");
+    }
 }
